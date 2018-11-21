@@ -51,8 +51,10 @@ Before running code in a notebook, change the kernel to match the `drlnd` enviro
 
 [jupyternotebook]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Logo Title 3"
 
+## Step 3: Run the code one cell by one
+The model file will be saved as checkpoint.pth in the root folder
 
-# rResult
+# Result
 
 Our agent got an average score of +14 over 100 consecutive episodes after 1031 episodes traning.
 
