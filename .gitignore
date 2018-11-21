@@ -1,0 +1,20 @@
+# Mac OS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Downloaded Unity file
+Banana_Windows_x86_64/
+unity-environment.log
+
+# editor temp files
+*.bak
