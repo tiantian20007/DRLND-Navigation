@@ -37,7 +37,22 @@ Then, place the file in the root folder in the this cloned repository, and unzip
 
 (For Windows users) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-# result
+# Run the code
+
+## Step 1: Start a IPython kernel
+Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+```bash
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+```
+## Step 2: Start the jupyter notebook: Navigation.ipynb
+Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+
+![alt][jupyternotebook]
+
+[jupyternotebook]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Logo Title 3"
+
+
+# rResult
 
 Our agent got an average score of +14 over 100 consecutive episodes after 1031 episodes traning.
 
