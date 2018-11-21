@@ -4,6 +4,10 @@ Navigation project for Deep Reinforcement Learning Nanodegree Program
 # Environment
 For this project, We will train an agent to navigate (and collect bananas!) in a large, square world.
 The Environment is provided by Udacity. 
+ 
+![alt text][env]
+
+[env]: https://github.com/tiantian20007/DRLND-Navigation/blob/master/res/env "Logo Title Text 2"
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
@@ -33,5 +37,13 @@ Then, place the file in the root folder in the this cloned repository, and unzip
 (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to enable a virtual screen, and then download the environment for the Linux operating system above.)
+
+# result
+
+Our agent got an average score of +14 over 100 consecutive episodes after 1031 episodes traning.
+
+![alt text][result]
+
+[result]: https://github.com/tiantian20007/DRLND-Navigation/blob/master/res/result.png "Logo Title Text 2"
 
 
