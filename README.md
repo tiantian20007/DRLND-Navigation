@@ -44,8 +44,8 @@ Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kerne
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
-## Step 2: Start the jupyter notebook: Navigation.ipynb
-Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+## Step 2: Start the jupyter notebook in this repository: Navigation.ipynb
+Before running code in the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
 ![alt][jupyternotebook]
 
