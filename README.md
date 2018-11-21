@@ -40,7 +40,7 @@ Then, place the file in the root folder in the this cloned repository, and unzip
 # Run the code
 
 ## Step 1: Start a IPython kernel
-Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment. Execute following code in the "python" foler of your cloned DRLND GitHub repository
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
