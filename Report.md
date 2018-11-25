@@ -1,7 +1,7 @@
 # Method
 
 ## Algorithm
-We use typical Deep Q-Learning with Experience Replay and Fixed Q-Targets to train our agent.
+We use typical **Deep Q-Learning with Experience Replay and Fixed Q-Targets** to train our agent.
 The algorithm is implemented in dqn_agent.py and the dqn function in Navigation.ipynb.
 
 ### Traditional Q-Learning
