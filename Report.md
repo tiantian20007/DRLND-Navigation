@@ -25,7 +25,9 @@ where w<sup>-</sup> are the weights of a separate target network that are not ch
  
 
 ## Model architectures
-First we tried a DNN contains 5 hidden layers, and each one of them has 128 neuron units. We choose relu as the activate function. The model trained long time, and yield a result satisfied our needs. Then we tried a simpler model with just only two hidden layers and also got satisfied result with much less time. 
+First we tried a DNN contains 5 hidden layers, and each one of them has 128 neuron units. We choose relu as the activate function. The model trained long time, and yield a result satisfied our needs. 
+
+Then we tried a simpler model with just only two hidden layers and also got satisfied result with much less time. 
 The mode is implemented in model.py. 
 
 ## Hyperparameters
