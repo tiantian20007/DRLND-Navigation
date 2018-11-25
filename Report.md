@@ -75,9 +75,13 @@ Deep Q-Learning tends to overestimate action values. Double Q-Learning has been 
 Deep Q-Learning samples experience transitions uniformly from a replay memory. 
 Prioritized experienced replay is based on the idea that the agent can learn more effectively from some transitions than from others, and the more important transitions should be sampled with higher probability.
 
+![alt text](https://github.com/tiantian20007/DRLND-Navigation/blob/master/res/Prioritized-Experience-Replay.png "Prioritized Experience Replay")
+
 ## [Dueling DQN](https://arxiv.org/abs/1511.06581)
 
 Currently, in order to determine which states are (or are not) valuable, we have to estimate the corresponding action values for each action. However, by replacing the traditional Deep Q-Network (DQN) architecture with a dueling architecture, we can assess the value of each state, without having to learn the effect of each action.
+
+![alt text](https://github.com/tiantian20007/DRLND-Navigation/blob/master/res/Dueling-Networks.png "Dueling DQN")
 
 ## [Rainbow](https://arxiv.org/abs/1710.02298)
 
