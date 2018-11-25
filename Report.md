@@ -55,8 +55,14 @@ The mode is implemented in model.py.
 # Future Work
 
 - [Double DQN (DDQN)](https://arxiv.org/abs/1509.06461)
+Deep Q-Learning tends to overestimate action values. Double Q-Learning has been shown to work well in practice to help with this.
+
 - [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
+Deep Q-Learning samples experience transitions uniformly from a replay memory. Prioritized experienced replay is based on the idea that the agent can learn more effectively from some transitions than from others, and the more important transitions should be sampled with higher probability.
+
 - [Dueling DQN](https://arxiv.org/abs/1511.06581)
+
+Currently, in order to determine which states are (or are not) valuable, we have to estimate the corresponding action values for each action. However, by replacing the traditional Deep Q-Network (DQN) architecture with a dueling architecture, we can assess the value of each state, without having to learn the effect of each action.
 
 Researchers at Google DeepMind recently tested the performance of an agent that incorporated all six of these modifications. The corresponding algorithm was termed [Rainbow](https://arxiv.org/abs/1710.02298).
 It outperforms each of the individual modifications and achieves state-of-the-art performance on Atari 2600 games!
