@@ -55,9 +55,11 @@ The mode is implemented in model.py.
 # Future Work
 
 - [Double DQN (DDQN)](https://arxiv.org/abs/1509.06461)
+
 Deep Q-Learning tends to overestimate action values. Double Q-Learning has been shown to work well in practice to help with this.
 
 - [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
+
 Deep Q-Learning samples experience transitions uniformly from a replay memory. Prioritized experienced replay is based on the idea that the agent can learn more effectively from some transitions than from others, and the more important transitions should be sampled with higher probability.
 
 - [Dueling DQN](https://arxiv.org/abs/1511.06581)
